@@ -1,0 +1,3 @@
+[submodule "number-guesser-starting"]
+	path = number-guesser-starting
+	url = https://github.com/MartinSWDev/number-guesser-starting
