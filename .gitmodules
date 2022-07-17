@@ -1,3 +1,6 @@
 [submodule "number-guesser-starting"]
 	path = number-guesser-starting
 	url = https://github.com/MartinSWDev/number-guesser-starting
+[submodule "excursion"]
+	path = excursion
+	url = https://github.com/MartinSWDev/excursion
