@@ -1,0 +1,23 @@
+{
+  "name": "martinswdev.github.io",
+  "version": "1.0.0",
+  "description": "Main porfolio page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinSWDev/MartinSWDev.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MartinSWDev/MartinSWDev.github.io/issues"
+  },
+  "homepage": "https://github.com/MartinSWDev/MartinSWDev.github.io#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.2",
+    "normalize.css": "^8.0.1"
+  }
+}

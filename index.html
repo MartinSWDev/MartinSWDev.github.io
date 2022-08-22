@@ -2,276 +2,153 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- Page Title Here -->
-    <title>MartinSWDev</title>
-
-    <!-- CSS Styling -->
-    <style>
-        .container{
-            margin: 0 0 4em 0;
-        }
-
-        h1 {text-align: center; color: white;}
-        h2 {text-align: center; color: white;}
-        #profile_pic {
-            width: 30%
-        }
-        .btn-primary{
-
-        }
-
-        .connect {
-            font-family: 'Noto Sans', sans-serif ! important;
-            /* font-size: 1rem ! important; */
-        }
-
-        .intro{
-            padding-top:20%;
-            text-align: center;
-        }
-
-        .introTop{
-            background: white;
-        }
-
-        #proj1 {
-            text-align: center;
-            height: 50vw;
-        }
-
-        #proj2{
-
-        }
-
-        #proj3{
-            background-image: url("assets/img/pexels-black-ice-1314543.jpg");
-        }
-        #proj4{
-            background-image: url("assets/img/pexels-porapak-apichodilok-346885.jpg");
-        }
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>MartinSWDev Portfolio</title>
 
 
 
-        #excursion-video {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            z-index: -1;
-            position: relative;
-            filter: grayscale(80%);
-        }
-
-
-        .row {
-            text-align: center;
-            --bs-gutter-x: 0 ! important;
-        }
-
-        #box1 {
-            color: white;
-            font-family: Trebuchet MS, sans-serif;
-            font-weight: bold;
-            text-align: center;
-            z-index:1;
-            top: 50%;
-            position:relative;
-            line-height: 0;
-            margin:0;
-        }
-
-        /* Fix this at some point - Hover only works with all of them */
-        #proj1:hover {
-
-            filter: grayscale(0%);
-        }
-        #proj1:hover + a {
-            filter: grayscale(0%);
-        }
-        #excursion-video:hover {
-            filter: grayscale(0%);
-        }
-        #proj1:hover ~ #excursion-video {
-            filter: grayscale(0%);
-        }
-        #box1:hover ~ #excursion-video {
-            filter: grayscale(0%);
-        }
-        /* Fix this at some point */
-
-        #box1:hover {
-            font-size: 3rem;
-        }
-
-
-        .boxId{
-            color: white;
-            font-family: Trebuchet MS, sans-serif;
-            font-weight: bold;
-            text-align: center;
-            z-index:1;
-            top: 50%;
-            position:relative;
-            line-height: 0;
-            margin:0;
-        }
-
-        .projBox {
-            text-align: center;
-            height: 50vw;
-        }
-
-        .discordLogo{
-            width: 50%
-        }
-
-
-        .discordBox{
-            padding-top:10%;
-            height: 15em;
-        }
-
-        .discordText{
-
-        }
-
-        .profile{
-            height:15em;
-        }
-
-        i {
-            padding-right:0.25em;
-        }
-
-        .nav_link{
-            display:flex;
-            flex-direction: column;
-            align-items:center;
-            flex-grow:1;
-            overflow:hidden;
-            white-space:nowrap;
-            font-family: sans-serif;
-            font-size: 2em;
-            color: grey;
-            text-decoration: none;
-            -webkit-tap-highlight-color: transparent;
-        }
-
-        .nav_link:hover{
-            background:lightgray;
-        }
-
-
-
-
-    </style>
-
-    <!-- Font Awesome -->
+    <!-- Additional style is in node modules -->
+        <!-- FontAwesome -->
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+        <!-- Normalize -->
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
 
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-
+    <!-- Google Fonts -->
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400;1,700&family=Poppins&display=swap" rel="stylesheet">
 
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/index_style.css">
 </head>
 <body>
-<div class="container">
-    <!-- Intro profile at top -->
-    <div class="row introTop">
-        <div class="col-3"></div>
-
-        <!-- Centered Profile Pic -->
-        <div class="col-6 intro">
-            <img src="assets/img/JS%20(2000%20×%202000px).png" class="img-fluid rounded-circle" id="profile_pic">
-            <!-- Name -->
-            <h1>Martin William</h1>
-            <!-- Below Name put small blurb-->
-            <p>Extra text here</p>
+    <header>
+        <div class="logo">
+            <img src="assets/img/@MartinSWDev%20(900%20×%20180px).svg"  alt="MartinSWDev handle as red text">
         </div>
-
-        <div class="col-3"></div>
-    </div>
-
-    <!-- Main Profile -->
-    <div class="row profile" style="background-color: aliceblue">
-        <div>
-            <h2>Currently Learning to Build With</h2>
-            <ul>
-                <li>JavaScript</li>
-                <li>CSS</li>
-                <li>HTML</li>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#learning" class="nav__link">Currently Learning</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
             </ul>
+        </nav>
+    </header>
+
+    <!-- Intro Section -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Martin William</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Student Software Developer</p>
+        <img src="assets/img/Profile%20Red.png"  alt="MartinSWDev handle as red text" class="intro__img">
+    </section>
+
+    <!-- Currently Learning -->
+    <section class="currently-learning" id="learning">
+        <h2 class="section__title section__title--learning">Currently Learning</h2>
+        <!-- Services -->
+        <div class="learning-items">
+            <div class="learning"> <!-- Learning Item 1 -->
+                <img src="assets/img/mongo%20white.svg" alt="mongo db logo with leaf" class="learning__img">
+<!--            <h3>MongoDB</h3>-->
+            <p>Working with MongoDB University on the JavaScript Developer pathway towards MongoDB Professional Certification.</p>
+                <ol>
+                    <li><i class="fa-solid fa-circle-check"></i> M001 - MongoDB Basics</li>
+                    <li><i class="fa-solid fa-spinner fa-spin-pulse"></i> M103 - Basic Cluster Administration</li>
+                    <li><i class="fa-solid fa-circle"></i> M121 - Aggregation Framework</li>
+                    <li><i class="fa-solid fa-circle"></i> M220 - MongoDB for Developers</li>
+                    <li><i class="fa-solid fa-circle"></i> M201 - MongoDB Performance</li>
+                    <li><i class="fa-solid fa-circle"></i> M320 - MongoDB Data Modeling</li>
+                    <li><i class="fa-solid fa-circle"></i> Certified MongoDB Developer</li>
+                </ol>
         </div>
-        <div>
-            <a class="btn btn-primary connect" href="https://www.linkedin.com/in/martinswdev" target="_blank">
-                <i class="fa-brands fa-linkedin fa-beat"></i>
-                Connect
+            <div class="learning"> <!-- Learning Item 2 -->
+                <img src="assets/img/reactjs-ar21.svg" alt="react js logo" class="learning__img">
+<!--            <h3>React JS</h3>-->
+            <p>Working through Codecademy's Learn React course covering the basics of React.<br>Also learning on Northcoders bootcamp with a front end project coming sooon.</p>
+                <ol>
+                    <li><i class="fa-solid fa-circle-check"></i> JSX</li>
+                    <li><i class="fa-solid fa-circle-check"></i> React Components</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Components Interactin</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Lifecycle Methods</li>
+                    <li><i class="fa-solid fa-spinner fa-spin-pulse"></i> Hooks</li>
+                    <li><i class="fa-solid fa-circle"></i> Stateless Components from Stateful Components</li>
+                    <li><i class="fa-solid fa-circle"></i> Additional React Basics</li>
+                </ol>
+        </div>
+            <div class="learning"> <!-- Learning Item 3 -->
+                <img src="assets/img/js_discord-ar21.svg" alt="discord js logo" class="learning__img">
+<!--            <h3>Discord JS</h3>-->
+            <p>Building my own discord test bot in my discord server. To be featured below soon.</p>
+        </div>
+        </div>
+
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Student Software Developer</p>
+
+        <div class="about-me__body">
+            <p>Former admin assistant currently retraining with Northcoders to become a software developer. Looking to land my first role as a junior developer in the coming weeks.</p>
+            <p>Will be adding more content here soon.</p>
+        </div>
+        <img src="assets/img/Profile%20Blue.png" alt="martin william face" class="about-me__img">
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my work</p>
+        <!-- Portfolio -->
+        <div class="portfolio">
+            <!-- Portfolio item 1 -->
+            <a href="#" class="portfolio__item">
+                <img src="assets/img/discordjs-powerful-javascript-library-for-interacting-with-the-discord-api.png" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio item 2 -->
+            <a href="#" class="portfolio__item">
+                <img src="assets/img/discordjs-powerful-javascript-library-for-interacting-with-the-discord-api.png" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio item 3 -->
+            <a href="#" class="portfolio__item">
+                <img src="assets/img/discordjs-powerful-javascript-library-for-interacting-with-the-discord-api.png" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio item 4 -->
+            <a href="#" class="portfolio__item">
+                <img src="assets/img/discordjs-powerful-javascript-library-for-interacting-with-the-discord-api.png" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio item 5 -->
+            <a href="#" class="portfolio__item">
+                <img src="assets/img/discordjs-powerful-javascript-library-for-interacting-with-the-discord-api.png" alt="" class="portfolio__img">
+            </a><!-- Portfolio item 6 -->
+            <a href="#" class="portfolio__item">
+                <img src="assets/img/discordjs-powerful-javascript-library-for-interacting-with-the-discord-api.png" alt="" class="portfolio__img">
             </a>
         </div>
-    </div>
-
-    <!-- Display Projects -->
-    <div class="row">
-        <h1>Projects</h1>
-    </div>
-
-    <div class="row">
-        <div class="col-6" id="proj1">
-            <a href="excursion/index.html" style="text-decoration:none">
-                <h2 id="box1">Excursion</h2>
-                <video id="excursion-video" loop onmouseover="this.play()" onmouseout="this.pause();" muted poster="" class="video">
-                    <!-- Video by Taryn Elliott: https://www.pexels.com/video/nature-water-hiking-river-5025889/ -->
-                    <source src="excursion/resources/videos/excursion.mov" type="video/mp4">
-                </video>
-
-            </a>
-        </div>
-        <div class="col-6 projBox" id="proj2" style="background-color: indianred">
-            <a href="#" style="text-decoration:none">
-                <h2 class="boxId">Project 2</h2>
-
-            </a>
-        </div>
-        <div class="col-6 projBox" id="proj3" >
-            <a href="number-guesser-starting/index.html" style="text-decoration:none">
-                <h2 class="boxId">Number Guesser</h2>
-            </a>
-        </div>
-        <div class="col-6 projBox" id="proj4" >
-            <a href="dasmotos-arts-crafts/main.html" style="text-decoration:none">
-                <h2 class="boxId">Very First Page</h2>
-            </a>
-        </div>
-    </div>
-
-    <!-- Discord Display -->
-    <div class="row discordBox" style="background-color: gray">
-        <div class="col-6">
-            <img src="assets/img/Discord-Logo+Wordmark-White.png" class="discordLogo">
-        </div>
-        <div class="col-6">
-            <h1 class="discordText" style="color:white;">Discord Bot Coming Soon</h1>
-        </div>
-    </div>
+    </section>
 
     <!-- Footer -->
-    <div class="row" style="background-color: burlywood">
-        Footer Stuff Here
-    </div>
+    <footer class="footer">
+        <a href="mailto:martinsoftwaredev@outlook.com" class="footer__link">martinsoftwaredev@outlook.com</a>
+        <ul class="social-list">
+            <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/martinswdev/"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://github.com/MartinSWDev"><i class="fa-brands fa-github"></i></a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://twitter.com/MartinSWDev"><i class="fa-brands fa-twitter"></i></a></li>
+        </ul>
+    </footer>
 
-    <div class="row">
-        <div class="col-12 nav">
-            <a href="index.html" class="nav_link">
-                <i class="fa-solid fa-house-chimney-window nav_icon"></i>
-                <span class="nav_text">Home</span>
-            </a>
-        </div>
-    </div>
+<script src="./js/index.js"></script>
 
-</div>
+
 </body>
 </html>
