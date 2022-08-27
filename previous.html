@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Page Title Here -->
+    <title>MartinSWDev</title>
+
+    <!-- CSS Styling -->
+    <style>
+        .container{
+            margin: 0 0 4em 0;
+        }
+
+        h1 {text-align: center; color: white;}
+        h2 {text-align: center; color: white;}
+        #profile_pic {
+            width: 30%
+        }
+        .btn-primary{
+
+        }
+
+        .connect {
+            font-family: 'Noto Sans', sans-serif ! important;
+            /* font-size: 1rem ! important; */
+        }
+
+        .intro{
+            padding-top:20%;
+            text-align: center;
+        }
+
+        .introTop{
+            background: white;
+        }
+
+        #proj1 {
+            text-align: center;
+            height: 50vw;
+        }
+
+        #proj2{
+
+        }
+
+        #proj3{
+            background-image: url("assets/img/pexels-black-ice-1314543.jpg");
+        }
+        #proj4{
+            background-image: url("assets/img/pexels-porapak-apichodilok-346885.jpg");
+        }
+
+
+
+        #excursion-video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+            position: relative;
+            filter: grayscale(80%);
+        }
+
+
+        .row {
+            text-align: center;
+            --bs-gutter-x: 0 ! important;
+        }
+
+        #box1 {
+            color: white;
+            font-family: Trebuchet MS, sans-serif;
+            font-weight: bold;
+            text-align: center;
+            z-index:1;
+            top: 50%;
+            position:relative;
+            line-height: 0;
+            margin:0;
+        }
+
+        /* Fix this at some point - Hover only works with all of them */
+        #proj1:hover {
+
+            filter: grayscale(0%);
+        }
+        #proj1:hover + a {
+            filter: grayscale(0%);
+        }
+        #excursion-video:hover {
+            filter: grayscale(0%);
+        }
+        #proj1:hover ~ #excursion-video {
+            filter: grayscale(0%);
+        }
+        #box1:hover ~ #excursion-video {
+            filter: grayscale(0%);
+        }
+        /* Fix this at some point */
+
+        #box1:hover {
+            font-size: 3rem;
+        }
+
+
+        .boxId{
+            color: white;
+            font-family: Trebuchet MS, sans-serif;
+            font-weight: bold;
+            text-align: center;
+            z-index:1;
+            top: 50%;
+            position:relative;
+            line-height: 0;
+            margin:0;
+        }
+
+        .projBox {
+            text-align: center;
+            height: 50vw;
+        }
+
+        .discordLogo{
+            width: 50%
+        }
+
+
+        .discordBox{
+            padding-top:10%;
+            height: 15em;
+        }
+
+        .discordText{
+
+        }
+
+        .profile{
+            height:15em;
+        }
+
+        i {
+            padding-right:0.25em;
+        }
+
+        .nav_link{
+            display:flex;
+            flex-direction: column;
+            align-items:center;
+            flex-grow:1;
+            overflow:hidden;
+            white-space:nowrap;
+            font-family: sans-serif;
+            font-size: 2em;
+            color: grey;
+            text-decoration: none;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .nav_link:hover{
+            background:lightgray;
+        }
+
+
+
+
+    </style>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="container">
+    <!-- Intro profile at top -->
+    <div class="row introTop">
+        <div class="col-3"></div>
+
+        <!-- Centered Profile Pic -->
+        <div class="col-6 intro">
+            <img src="assets/img/JS%20(2000%20×%202000px).png" class="img-fluid rounded-circle" id="profile_pic">
+            <!-- Name -->
+            <h1>Martin William</h1>
+            <!-- Below Name put small blurb-->
+            <p>Extra text here</p>
+        </div>
+
+        <div class="col-3"></div>
+    </div>
+
+    <!-- Main Profile -->
+    <div class="row profile" style="background-color: aliceblue">
+        <div>
+            <h2>Currently Learning to Build With</h2>
+            <ul>
+                <li>JavaScript</li>
+                <li>CSS</li>
+                <li>HTML</li>
+            </ul>
+        </div>
+        <div>
+            <a class="btn btn-primary connect" href="https://www.linkedin.com/in/martinswdev" target="_blank">
+                <i class="fa-brands fa-linkedin fa-beat"></i>
+                Connect
+            </a>
+        </div>
+    </div>
+
+    <!-- Display Projects -->
+    <div class="row">
+        <h1>Projects</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-6" id="proj1">
+            <a href="excursion/index.html" style="text-decoration:none">
+                <h2 id="box1">Excursion</h2>
+                <video id="excursion-video" loop onmouseover="this.play()" onmouseout="this.pause();" muted poster="" class="video">
+                    <!-- Video by Taryn Elliott: https://www.pexels.com/video/nature-water-hiking-river-5025889/ -->
+                    <source src="excursion/resources/videos/excursion.mov" type="video/mp4">
+                </video>
+
+            </a>
+        </div>
+        <div class="col-6 projBox" id="proj2" style="background-color: indianred">
+            <a href="#" style="text-decoration:none">
+                <h2 class="boxId">Project 2</h2>
+
+            </a>
+        </div>
+        <div class="col-6 projBox" id="proj3" >
+            <a href="number-guesser-starting/index.html" style="text-decoration:none">
+                <h2 class="boxId">Number Guesser</h2>
+            </a>
+        </div>
+        <div class="col-6 projBox" id="proj4" >
+            <a href="dasmotos-arts-crafts/main.html" style="text-decoration:none">
+                <h2 class="boxId">Very First Page</h2>
+            </a>
+        </div>
+    </div>
+
+    <!-- Discord Display -->
+    <div class="row discordBox" style="background-color: gray">
+        <div class="col-6">
+            <img src="assets/img/Discord-Logo+Wordmark-White.png" class="discordLogo">
+        </div>
+        <div class="col-6">
+            <h1 class="discordText" style="color:white;">Discord Bot Coming Soon</h1>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="row" style="background-color: burlywood">
+        Footer Stuff Here
+    </div>
+
+    <div class="row">
+        <div class="col-12 nav">
+            <a href="previous.html" class="nav_link">
+                <i class="fa-solid fa-house-chimney-window nav_icon"></i>
+                <span class="nav_text">Home</span>
+            </a>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
