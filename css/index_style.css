@@ -28,9 +28,9 @@
 
 @media (min-width: 800px) {
     :root {
-        --fs-h1: 4.5rem;
+        --fs-h1: 6rem;
         --fs-h2: 3.75rem;
-        --fs-h3: 1.5rem;
+        --fs-h3: 1.5em;
         --fs-body: 1.125rem;
     }
 }
@@ -265,6 +265,7 @@ header {
     box-shadow: var(--bxs);
 }
 
+
 @media (min-width: 600px) {
     .intro {
         display: grid;
@@ -277,7 +278,7 @@ header {
 
     .intro__img{
         grid-area: img;
-        min-width: 250px;
+        min-width: 300px;
         position: relative;
         z-index: 2;
     }
@@ -334,8 +335,9 @@ header {
     margin: 0 auto;
 }
 
-.learning ol {
+.learning ul {
     text-align: left;
+    list-style: none;
 }
 
 .learning__img {
@@ -368,6 +370,10 @@ header {
 
 .about-me__img{
     box-shadow: var(--bxs);
+}
+
+.about-me-northcoders {
+    width: 50%;
 }
 
 @media (min-width: 600px) {
@@ -507,12 +513,18 @@ header {
 
 
 /* Font Awesome */
-.fa-circle-check {
-    color: lawngreen;
+.mongo {
+    color: #6cac48;
 }
-.fa-spinner {
-    color: yellow;
+.react {
+    color: #00d8ff;
 }
+.discord {
+    color: #5865f2;
+}
+/*.fa-spinner {*/
+/*    color: yellow;*/
+/*}*/
 
 
 
