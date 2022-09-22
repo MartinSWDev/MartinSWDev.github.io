@@ -17,6 +17,9 @@
     --clr-light: #fff;
     --clr-dark: #303030;
     --clr-accent: #d82036;
+    --clr-discord: #5865f2;
+    --clr-react: #00d8ff;
+    --clr-mongo: #6cac48;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -421,7 +424,7 @@ header {
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    max-width: 1000px;
+    max-width: 999px;
     margin: 0 auto;
 }
 
@@ -447,6 +450,23 @@ header {
     transform: scale(1.2);
     opacity: 0.75;
 }
+
+.my-work.btn {
+}
+
+/* Discord */
+.section-discord {
+    background-color: var(--clr-discord);
+    color: var(--clr-light);
+    text-align: center;
+    align-items: center;
+}
+
+.section-discord_img {
+    display: inline;
+    width: 25em;
+}
+
 
 
 
@@ -514,13 +534,13 @@ header {
 
 /* Font Awesome */
 .mongo {
-    color: #6cac48;
+    color: var(--clr-mongo)
 }
 .react {
-    color: #00d8ff;
+    color: var(--clr-react);
 }
 .discord {
-    color: #5865f2;
+    color: var(--clr-discord);
 }
 /*.fa-spinner {*/
 /*    color: yellow;*/
