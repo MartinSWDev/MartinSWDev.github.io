@@ -1,318 +1,315 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
-    <title>MartinSWDev Portfolio</title>
-    <link rel="icon" type="image/x-icon" href="/assets/img/Favicon.png">
 
-    <!-- Additional style is in node modules -->
-    <!-- FontAwesome -->
-    <script
-      src="https://kit.fontawesome.com/2c85c2123e.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- REMOVED STYLESHEET BELOW -->
-    <!--    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">-->
-    <!-- Normalize -->
-    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+  <title>MartinSWDev Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="/assets/img/Favicon.png">
 
-    <!-- Google Fonts -->
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400;1,700&family=Poppins&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Additional style is in node modules -->
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/2c85c2123e.js" crossorigin="anonymous"></script>
+  <!-- REMOVED STYLESHEET BELOW -->
+  <!--    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">-->
+  <!-- Normalize -->
+  <link rel="stylesheet" href="node_modules/normalize.css/normalize.css" />
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/index_style.css" />
-  </head>
-  <body>
-    <header>
-      <div class="logo">
-        <img
-          src="assets/img/@MartinSWDev%20(900%20×%20180px).svg"
-          alt="MartinSWDev handle as red text"
-        />
-      </div>
-      <button class="nav-toggle" aria-label="toggle navigation">
-        <span class="hamburger"></span>
-      </button>
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-          <li class="nav__item">
-            <a href="#learning" class="nav__link">Currently Learning</a>
-          </li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About Me</a>
-          </li>
-          <li class="nav__item">
-            <a href="#work" class="nav__link">My Work</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+  <!-- Google Fonts -->
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400;1,700&family=Poppins&display=swap"
+    rel="stylesheet" />
 
-    <!-- Intro Section -->
-    <section class="intro" id="home">
-      <h1 class="section__title section__title--intro">
-        Hi, I am <strong>Martin William</strong>
-      </h1>
-      <p class="section__subtitle section__subtitle--intro">
-        Software Developer
-      </p>
-      <img
-        src="assets/img/Profile%20Red.png"
-        alt="MartinSWDev handle as red text"
-        class="intro__img"
-      />
-    </section>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/index_style.css" />
+</head>
 
-    <!-- Currently Learning -->
-    <section class="currently-learning" id="learning">
-      <h2 class="section__title section__title--learning">
-        Currently Learning
-      </h2>
-      <!-- Services -->
-      <div class="learning-items">
-        <div class="learning">
-          <!-- Learning Item 1 -->
-          <img
-            src="assets/img/mongo%20white.svg"
-            alt="mongo db logo with leaf"
-            class="learning__img"
-          />
-          <!--            <h3>MongoDB</h3>-->
-          <p>
-            Working with MongoDB University on the JavaScript Developer pathway
-            towards MongoDB Professional Certification.
-          </p>
-          <ul>
-            <li>
-              <i class="fa-solid fa-circle-check mongo"></i> M001 - MongoDB
-              Basics
-            </li>
-            <li>
-              <i class="fa-solid fa-spinner fa-spin-pulse mongo"></i> M103 -
-              Basic Cluster Administration
-            </li>
-            <li>
-              <i class="fa-solid fa-circle"></i> M121 - Aggregation Framework
-            </li>
-            <li>
-              <i class="fa-solid fa-circle"></i> M220 - MongoDB for Developers
-            </li>
-            <li>
-              <i class="fa-solid fa-circle"></i> M201 - MongoDB Performance
-            </li>
-            <li>
-              <i class="fa-solid fa-circle"></i> M320 - MongoDB Data Modeling
-            </li>
-            <li>
-              <i class="fa-solid fa-circle"></i> Certified MongoDB Developer
-            </li>
-          </ul>
-        </div>
-        <div class="learning">
-          <!-- Learning Item 2 -->
-          <img
-            src="assets/img/reactjs-ar21.svg"
-            alt="react js logo"
-            class="learning__img"
-          />
-          <!--            <h3>React JS</h3>-->
-          <p>
-            Working through Codecademy's Learn React course covering the basics
-            of React. Also learning on Northcoders bootcamp. Front end project
-            coming soon.
-          </p>
-          <ul>
-            <li><i class="fa-solid fa-circle-check react"></i> JSX</li>
-            <li>
-              <i class="fa-solid fa-circle-check react"></i> React Components
-            </li>
-            <li>
-              <i class="fa-solid fa-circle-check react"></i> Components
-              Interactin
-            </li>
-            <li>
-              <i class="fa-solid fa-circle-check react"></i> Lifecycle Methods
-            </li>
-            <li>
-              <i class="fa-solid fa-spinner fa-spin-pulse react"></i> Hooks
-            </li>
-            <li>
-              <i class="fa-solid fa-circle"></i> Stateless Components from
-              Stateful Components
-            </li>
-            <li><i class="fa-solid fa-circle"></i> Additional React Basics</li>
-          </ul>
-        </div>
-        <div class="learning">
-          <!-- Learning Item 3 -->
-          <img
-            src="assets/img/js_discord-ar21.svg"
-            alt="discord js logo"
-            class="learning__img"
-          />
-          <!--            <h3>Discord JS</h3>-->
-          <p>
-            Building my own discord test bot in my discord server to bring my
-            skills up to version 14. Recreating past bot functionality. To be
-            featured below soon.
-          </p>
-          <ul>
-            <li>
-              <i class="fa-solid fa-circle-check discord"></i> Create Server
-            </li>
-            <li><i class="fa-solid fa-circle-check discord"></i> Create Bot</li>
-            <li>
-              <i class="fa-solid fa-circle-check discord"></i> Add Command,
-              Event and Component Handlers
-            </li>
-            <li>
-              <i class="fa-solid fa-circle-check discord"></i> Add Test Commands
-            </li>
-            <li>
-              <i class="fa-solid fa-spinner fa-spin-pulse discord"></i> Add Test
-              Modals and Menus
-            </li>
-            <li><i class="fa-solid fa-circle"></i> Connect Mongo</li>
-            <li><i class="fa-solid fa-circle"></i> Host Bot</li>
-            <li>
-              <i class="fa-solid fa-circle"></i> Create User Functionality
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <a href="#work" class="btn">My Work</a>
-    </section>
-
-    <!-- About Me -->
-    <section class="about-me" id="about">
-      <h2 class="section__title section__title--about">Who I am</h2>
-      <p class="section__subtitle section__subtitle--about">
-        Software Developer
-      </p>
-
-      <div class="about-me__body">
-        <p>
-          Former admin assistant currently retraining with Northcoders to become
-          a software developer. Looking to land my first role as a junior
-          developer in the coming weeks.
-        </p>
-        <p>
-          Previously had done some coding here and there on the odd occasion,
-          but took learning a bit more seriously during Covid-19 lockdowns.
-        </p>
-        <p>
-          Taking one PHP course at the start of 2021 I put it again to one side
-          in order to focus on finishing my degree.
-        </p>
-        <p>
-          During 2021 I started to build Discord bots for a small gaming
-          community to replicate features they felt were missing in their game.
-        </p>
-        <p>
-          I completed my Economics and Mathematical Sciences degree in 2022 and
-          decided that I wanted to pursue software development full time,
-          leaving my old role behind and starting on the Northcoders Bootcamp.
-        </p>
-        <img
-          class="about-me-northcoders"
-          src="assets/img/Northcoders-Primary-Logo---Red.png"
-          alt="northcoders text with top hat"
-        />
-        <p>
-          The 13 week course has been one of the best decisions I've ever made.
-          Being able to learn to code for 7 hours a day in an organised way is
-          helping to create discipline in the way I code as well give exposure
-          to real world scenarios that you just can't get from online self-paced
-          learning.
-        </p>
-        <p>
-          A full blog detailing the learning process at Northcoders will be
-          coming here soon.
-        </p>
-      </div>
-      <a href="https://www.linkedin.com/in/martinswdev/" target="_blank" class="about-me__img">
-      <img
-        src="assets/img/connect%20button.png"
-        alt="linkedin button"
-      />
-      </a>
-    </section>
-
-    <!-- My Projects -->
-    <section class="my-work" id="work">
-      <h2 class="section__title section__title--work">My Projects</h2>
-      <p class="section__subtitle section__subtitle--work">
-        A selection of my work
-      </p>
-              <div class="portfolio">
-                  <!-- Portfolio item 1 -->
-                  <a href="https://martinswdev-be-nc-games.herokuapp.com" class="portfolio__item" target="_blank">
-                      <img src="./assets/img/1.png" alt="" class="portfolio__img">
-                  </a>
-                  <!-- Portfolio item 2 -->
-                <a href="https://github.com/MartinSWDev/economy-bot" class="portfolio__item" target="_blank">
-                      <img src="assets/img/2.png" alt="" class="portfolio__img">
-                  </a>
-                  <!-- Portfolio item 3 -->
-                <a href="https://github.com/MartinSWDev/deeper_project" class="portfolio__item" target="_blank">
-                      <img src="assets/img/3.png" alt="" class="portfolio__img">
-                  </a>
-              </div>
-      <h3>
-        View Code on Github
-      </h3>
-      <div class="portfolio">
-      <a href="https://github.com/MartinSWDev/NC-Backend-Project" class="btn" target=_blank><i class="fa-brands fa-github"></i> API</a>
-      <a href="https://github.com/MartinSWDev/economy-bot" class="btn" target=_blank><i class="fa-brands fa-github"></i> Economy Bot</a>
-      <a href="https://github.com/MartinSWDev/deeper_project" class="btn" target=_blank><i class="fa-brands fa-github"></i> PHP Site</a>
-      </div>
-    </section>
-
-    <section class="section-discord" id="discord">
-      <img class="section-discord_img" src="./assets/img/Discord-Logo+Wordmark-White.png" alt="discord logo" />
-      <p class="section__subtitle section__subtitle--discord">
-        A place to display my Discord bots
-      </p>
-      <a href="https://github.com/MartinSWDev/economy-bot" class="btn"
-      target=_blank><i class="fa-brands fa-github"></i> View Code</a
-      >
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-      <a href="mailto:martinsoftwaredev@outlook.com" class="footer__link"
-        >martinsoftwaredev@outlook.com</a
-      >
-      <ul class="social-list">
-        <li class="social-list__item">
-          <a
-            class="social-list__link"
-            href="https://www.linkedin.com/in/martinswdev/"
-            ><i class="fa-brands fa-linkedin"></i
-          ></a>
+<body>
+  <header>
+    <div class="logo">
+      <img src="assets/img/@MartinSWDev%20(900%20×%20180px).svg" alt="MartinSWDev handle as red text" />
+    </div>
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+        <li class="nav__item">
+          <a href="#learning" class="nav__link">Currently Learning</a>
         </li>
-        <li class="social-list__item">
-          <a class="social-list__link" href="https://github.com/MartinSWDev"
-            ><i class="fa-brands fa-github"></i
-          ></a>
+        <li class="nav__item">
+          <a href="#about" class="nav__link">About Me</a>
         </li>
-        <li class="social-list__item">
-          <a class="social-list__link" href="https://twitter.com/MartinSWDev"
-            ><i class="fa-brands fa-twitter"></i
-          ></a>
+        <li class="nav__item">
+          <a href="#work" class="nav__link">My Projects</a>
+        </li>
+        <li class="nav__item">
+          <a href="#discord" class="nav__link">Discord</a>
         </li>
       </ul>
-    </footer>
+    </nav>
+  </header>
 
-    <script src="./js/index.js"></script>
-  </body>
+  <!-- Intro Section -->
+  <section class="intro" id="home">
+    <h1 class="section__title section__title--intro">
+      Hi, I am <strong>Martin William</strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">
+      Software Developer
+    </p>
+    <img src="assets/img/Profile%20Red.png" alt="MartinSWDev handle as red text" class="intro__img" />
+  </section>
+
+  <!-- Currently Learning -->
+  <section class="currently-learning" id="learning">
+    <h2 class="section__title section__title--learning">
+      Currently Learning
+    </h2>
+    <!-- Services -->
+    <div class="learning-items">
+      <div class="learning">
+        <!-- Learning Item 1 -->
+        <img src="assets/img/mongo%20white.svg" alt="mongo db logo with leaf" class="learning__img" />
+        <!--            <h3>MongoDB</h3>-->
+        <p>
+          Working with MongoDB University on the JavaScript Developer pathway
+          towards MongoDB Professional Certification.
+        </p>
+        <ul>
+          <li>
+            <i class="fa-solid fa-circle-check mongo"></i> M001 - MongoDB
+            Basics
+          </li>
+          <li>
+            <i class="fa-solid fa-spinner fa-spin-pulse mongo"></i> M103 -
+            Basic Cluster Administration
+          </li>
+          <li>
+            <i class="fa-solid fa-circle"></i> M121 - Aggregation Framework
+          </li>
+          <li>
+            <i class="fa-solid fa-circle"></i> M220 - MongoDB for Developers
+          </li>
+          <li>
+            <i class="fa-solid fa-circle"></i> M201 - MongoDB Performance
+          </li>
+          <li>
+            <i class="fa-solid fa-circle"></i> M320 - MongoDB Data Modeling
+          </li>
+          <li>
+            <i class="fa-solid fa-circle"></i> Certified MongoDB Developer
+          </li>
+        </ul>
+      </div>
+      <div class="learning">
+        <!-- Learning Item 2 -->
+        <img src="assets/img/reactjs-ar21.svg" alt="react js logo" class="learning__img" />
+        <!--            <h3>React JS</h3>-->
+        <p>
+          Working through Codecademy's Learn React course covering the basics
+          of React. Also learning on Northcoders bootcamp. Front end project
+          coming soon.
+        </p>
+        <ul>
+          <li><i class="fa-solid fa-circle-check react"></i> JSX</li>
+          <li>
+            <i class="fa-solid fa-circle-check react"></i> React Components
+          </li>
+          <li>
+            <i class="fa-solid fa-circle-check react"></i> Components
+            Interacting
+          </li>
+          <li>
+            <i class="fa-solid fa-circle-check react"></i> Lifecycle Methods
+          </li>
+          <li>
+            <i class="fa-solid fa-spinner fa-spin-pulse react"></i> Hooks
+          </li>
+          <li>
+            <i class="fa-solid fa-circle"></i> Stateless Components from
+            Stateful Components
+          </li>
+          <li><i class="fa-solid fa-circle"></i> Additional React Basics</li>
+        </ul>
+      </div>
+      <div class="learning">
+        <!-- Learning Item 3 -->
+        <img src="assets/img/js_discord-ar21.svg" alt="discord js logo" class="learning__img" />
+        <!--            <h3>Discord JS</h3>-->
+        <p>
+          Building my own discord test bot in my discord server to bring my
+          skills up to version 14. Recreating past bot functionality. To be
+          featured below soon.
+        </p>
+        <ul>
+          <li>
+            <i class="fa-solid fa-circle-check discord"></i> Create Server
+          </li>
+          <li><i class="fa-solid fa-circle-check discord"></i> Create Bot</li>
+          <li>
+            <i class="fa-solid fa-circle-check discord"></i> Add Command,
+            Event and Component Handlers
+          </li>
+          <li>
+            <i class="fa-solid fa-circle-check discord"></i> Add Test Commands
+          </li>
+          <li>
+            <i class="fa-solid fa-circle-check discord"></i> Add Test
+            Modals and Menus
+          </li>
+          <li><i class="fa-solid fa-spinner fa-spin-pulse discord"></i> Connect Mongo</li>
+          <li><i class="fa-solid fa-circle"></i> Host Bot</li>
+          <li>
+            <i class="fa-solid fa-circle"></i> Create User Functionality
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <a href="#work" class="btn">My Work</a>
+  </section>
+
+  <!-- About Me -->
+  <section class="about-me" id="about">
+    <h2 class="section__title section__title--about">Who I am</h2>
+    <p class="section__subtitle section__subtitle--about">
+      Software Developer
+    </p>
+
+    <div class="about-me__body">
+      <p>Hi there! Thanks for coming to read my portfolio page. Here's a little bit about me:</p>
+      <p>Recently graduated mathematics student with <b>2 years of experience</b> building back-end <b>JavaScript</b>
+        applications.</p>
+      <p>
+        Former admin assistant currently retraining with Northcoders to become
+        a software developer. Looking to land my first role as a junior
+        developer in the coming weeks.
+      </p>
+      <p>
+        Took up an offer to learn PHP during covid lockdowns which sparked an interest in learning to code.
+      </p>
+      <p>
+        During 2021 I started to build Discord bots for a small gaming
+        community to replicate features they felt were missing in their game.
+      </p>
+      <p>
+        I completed my Economics and Mathematical Sciences degree in 2022 and
+        decided that I wanted to pursue software development full time,
+        leaving my old role behind and starting on the Northcoders Bootcamp.
+      </p>
+      <br />
+      <img class="about-me-northcoders" src="assets/img/Northcoders-Primary-Logo---Red.png"
+        alt="northcoders text with top hat" />
+      <br />
+      <p>
+        The 13 week course has been one of the best decisions I've ever made.
+        Being able to learn to code for 7 hours a day in an organised way is
+        helping to create discipline in the way I code as well give exposure
+        to real world scenarios that you just can't get from online self-paced
+        learning.
+      </p>
+      <p>During the course as well as building strong fundamentals in JavaScript and Agile development we have the opportunity to build 2 solo projects and work together as a team towards a final project.</p>
+      <p>The first of these projects, a back-end API can be found below.</p>
+      <p>I am currently building the front-end React single page application and begin the final project next week.</p>
+    </div>
+    <a href="https://www.linkedin.com/in/martinswdev/" target="_blank" class="about-me__img">
+      <img src="assets/img/connect%20button.png" alt="linkedin button" />
+    </a>
+  </section>
+
+  <!-- My Projects -->
+  <section class="my-work" id="work">
+    <h2 class="section__title section__title--work">My Projects</h2>
+    <p class="section__subtitle section__subtitle--work">
+      A selection of my work
+    </p>
+    <div class="portfolio">
+      <!-- Portfolio item 1 -->
+      <a href="https://martinswdev-be-nc-games.herokuapp.com" class="portfolio__item" target="_blank">
+        <img src="./assets/img/1.png" alt="" class="portfolio__img">
+      </a>
+      <!-- Portfolio item 2 -->
+      <a href="#discord" class="portfolio__item">
+        <img src="assets/img/2.png" alt="" class="portfolio__img">
+      </a>
+      <!-- Portfolio item 3 -->
+      <a href="https://github.com/MartinSWDev/deeper_project" class="portfolio__item" target="_blank">
+        <img src="assets/img/3.png" alt="" class="portfolio__img">
+      </a>
+    </div>
+    <h3>
+      View Code on Github
+    </h3>
+    <div class="portfolio">
+      <a href="https://github.com/MartinSWDev/NC-Backend-Project" class="btn" target=_blank><i
+          class="fa-brands fa-github"></i> API</a>
+      <a href="https://github.com/MartinSWDev/economy-bot" class="btn" target=_blank><i class="fa-brands fa-github"></i>
+        Economy Bot</a>
+      <a href="https://github.com/MartinSWDev/deeper_project" class="btn" target=_blank><i
+          class="fa-brands fa-github"></i> PHP Site</a>
+    </div>
+  </section>
+
+  <section class="section-discord" id="discord">
+    <div class="left-discord">
+      <img class="section-discord_img" src="./assets/img/Discord-Logo+Wordmark-White.png" alt="discord logo" />
+      <h3 class="section__subtitle section__subtitle--discord">
+        Economy Bot
+      </h3>
+      <p class="section__subtitle section__subtitle--discord">
+        Economy Bot is a basic replica of a transaction bot I built for a client.
+        The replica can fetch prices from the metals-api and stores them in MongoDB.
+        Users can then retrieve these with the prices command.
+        Prices can also be updated each day, quotes for buying and selling can be made, and shortly transactions will be
+        handled using a ticket system.
+      </p>
+      <a href="https://github.com/MartinSWDev/economy-bot" class="btn" target=_blank><i class="fa-brands fa-github"></i>
+        View Code</a>
+      <a href="https://discord.gg/dKuPQN7SwV" class="btn" target=_blank><i class="fa-brands fa-discord "></i>
+        Join Discord</a>
+    </div>
+    <div class="right-discord">
+      <widgetbot server="1020467368406827018" channel="1021361680514551818" width="1000" height="800"
+        class="discord_embed"></widgetbot>
+      <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <a href="mailto:martinsoftwaredev@outlook.com" class="footer__link">martinsoftwaredev@outlook.com</a>
+    <ul class="social-list">
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://www.linkedin.com/in/martinswdev/"><i
+            class="fa-brands fa-linkedin"></i></a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://github.com/MartinSWDev"><i class="fa-brands fa-github"></i></a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://twitter.com/MartinSWDev"><i class="fa-brands fa-twitter"></i></a>
+      </li>
+    </ul>
+    <ul class="footer__list">
+      <li class="nav__item"><a href="#home" class="footer__link">Home</a></li>
+      <li class="nav__item">
+        <a href="#learning" class="footer__link">Currently Learning</a>
+      </li>
+      <li class="nav__item">
+        <a href="#about" class="footer__link">About Me</a>
+      </li>
+      <li class="nav__item">
+        <a href="#work" class="footer__link">My Projects</a>
+      </li>
+    </ul>
+  </footer>
+
+  <script src="./js/index.js"></script>
+</body>
+
 </html>
