@@ -396,6 +396,10 @@ header {
     width: 50%;
 }
 
+.about-me-edx {
+    width: 50%;
+}
+
 @media (min-width: 1150px) {
     .about-me {
         display: grid;
