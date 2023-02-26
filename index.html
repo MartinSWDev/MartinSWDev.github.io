@@ -30,7 +30,7 @@
 <body>
   <header>
     <div class="logo">
-      <img src="assets/img/@MartinSWDev%20(900%20×%20180px).svg" alt="MartinSWDev handle as red text" />
+      <img src="assets/img/@MartinSWDev (900 × 180px) Blue.png" alt="MartinSWDev handle as red text" />
     </div>
     <button class="nav-toggle" aria-label="toggle navigation">
       <span class="hamburger"></span>
@@ -62,7 +62,7 @@
     <p class="section__subtitle section__subtitle--intro">
       Software Developer
     </p>
-    <img src="assets/img/Profile%20Red.png" alt="MartinSWDev handle as red text" class="intro__img" />
+    <img src="assets/img/Blue.png" alt="MartinSWDev handle as red text" class="intro__img" />
   </section>
 
   <!-- Currently Learning -->
@@ -162,10 +162,10 @@
             <i class="fa-solid fa-circle-check discord"></i> Add Test
             Modals and Menus
           </li>
-          <li><i class="fa-solid fa-spinner fa-spin-pulse discord"></i> Connect Mongo</li>
-          <li><i class="fa-solid fa-circle"></i> Host Bot</li>
+          <li><i class="fa-solid fa-circle-check discord"></i> Connect Mongo</li>
+          <li><i class="fa-solid fa-circle-check discord"></i> Host Bot</li>
           <li>
-            <i class="fa-solid fa-circle"></i> Create User Functionality
+            <i class="fa-solid fa-spinner fa-spin-pulse discord"></i></i> Create User Functionality
           </li>
         </ul>
       </div>
@@ -209,12 +209,13 @@
         to real world scenarios that you just can't get from online self-paced
         learning.
       </p>
-      <p>During the course as well as building strong fundamentals in JavaScript and Agile development we have the opportunity to build 2 solo projects and work together as a team towards a final project.</p>
+      <p>During the course as well as building strong fundamentals in JavaScript and Agile development we have the
+        opportunity to build 2 solo projects and work together as a team towards a final project.</p>
       <p>The first of these projects, a back-end API, and front-end React APP can be found below.</p>
       <p>I am currently building with our team, a React Native app to help dancers find dance partners.</p>
     </div>
     <a href="https://www.linkedin.com/in/martinswdev/" target="_blank" class="about-me__img">
-      <img src="assets/img/connect%20button.png" alt="linkedin button" />
+      <img src="assets/img/connect button Blue.png" alt="linkedin button" />
     </a>
   </section>
 
@@ -226,29 +227,67 @@
     </p>
     <div class="portfolio">
       <!-- Portfolio item 1 -->
-      <a href="https://martinswdev-be-nc-games.herokuapp.com" class="portfolio__item" target="_blank">
-        <img src="./assets/img/1.png" alt="" class="portfolio__img">
-      </a>
+      <div>
+        <a href="#dancify" class="portfolio__item">
+          <img src="./assets/img/project5.png" alt="" class="portfolio__img">
+        </a>
+        <a href="https://github.com/JSON-and-the-Arguments/dancify" class="btn" target=_blank><i
+            class="fa-brands fa-github"></i> Dancify</a>
+      </div>
+
       <!-- Portfolio item 2 -->
-      <a href="#discord" class="portfolio__item">
-        <img src="assets/img/2.png" alt="" class="portfolio__img">
-      </a>
+      <div>
+        <a href="https://martinswdev-be-nc-games.herokuapp.com" class="portfolio__item" target="_blank">
+          <img src="./assets/img/1.png" alt="" class="portfolio__img">
+        </a>
+        <a href="https://github.com/MartinSWDev/NC-Backend-Project" class="btn" target=_blank><i
+            class="fa-brands fa-github"></i> API</a>
+      </div>
+
       <!-- Portfolio item 3 -->
-      <a href="https://nc-frontend-project.vercel.app" class="portfolio__item" target="_blank">
-        <img src="assets/img/projects.png" alt="" class="portfolio__img">
-      </a>
+      <div>
+        <a href="#discord" class="portfolio__item">
+          <img src="assets/img/2.png" alt="" class="portfolio__img">
+        </a>
+        <a href="https://github.com/MartinSWDev/economy-bot" class="btn" target=_blank><i
+            class="fa-brands fa-github"></i>
+          Economy Bot</a>
+      </div>
+
+      <!-- Portfolio item 4 -->
+      <div>
+        <a href="https://nc-frontend-project.vercel.app" class="portfolio__item" target="_blank">
+          <img src="assets/img/projects.png" alt="" class="portfolio__img">
+        </a>
+        <a href="https://github.com/MartinSWDev/NC-Frontend-Project" class="btn" target=_blank><i
+            class="fa-brands fa-github"></i> React Reviews</a>
+        </a>
+      </div>
     </div>
-    <h3>
-      View Code on GitHub
-    </h3>
-    <div class="portfolio">
-      <a href="https://github.com/MartinSWDev/NC-Backend-Project" class="btn" target=_blank><i
-          class="fa-brands fa-github"></i> API</a>
-      <a href="https://github.com/MartinSWDev/economy-bot" class="btn" target=_blank><i class="fa-brands fa-github"></i>
-        Economy Bot</a>
-      <a href="https://github.com/MartinSWDev/NC-Frontend-Project" class="btn" target=_blank><i
-          class="fa-brands fa-github"></i> React Reviews</a>
+  </section>
+
+  <section class="section-dancify" id="dancify">
+    <div class="left-dancify">
+      <h3>Dancify</h3>
+      <h4>The Team</h4>
+      <img class="section-dancify__img" src="./assets/img/IMG_1521.jpg"></img>
+      <p>JSON and the Arguments (Left to Right): Zak, Martin, Hugo, Pawel, Connor</p>
+      <h4>Our app</h4>
+      Dancify is an app that connects people who love to dance. Anyone can sign up to the app, create a profile,
+      setting
+      your dance style, your role (as a lead or follow), and the range they wish to search for dance partners. Once
+      you
+      have your profile ready, you can message other dancers in order to meet up to practice your dance steps.
+      <h4>Tech Stack</h4>
+      <p>We used React Native, React Native Map, Tailwindcss, CSS, Axios, Expo, Firebase, Cloud Firestore, Cloud
+        Storage
+        for Firebase and Postcodes.io.</p>
     </div>
+    <div class="right-dancify">
+      <h4>Demo (by Zak)</h4>
+      <video src="./assets/img/Untitled (1).mp4" controls class="section-dancify__video"></video>
+    </div>
+
   </section>
 
   <section class="section-discord" id="discord">
